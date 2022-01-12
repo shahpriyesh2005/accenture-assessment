@@ -1,0 +1,5 @@
+CREATE TABLE COUNTRIES AS SELECT * FROM CSVREAD('classpath:countries.csv');
+
+CREATE TABLE AIRPORTS AS SELECT * FROM CSVREAD('classpath:airports.csv');
+
+CREATE TABLE RUNWAYS AS SELECT * FROM CSVREAD('classpath:runways.csv');
